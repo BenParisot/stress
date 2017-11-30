@@ -17,7 +17,6 @@ Stress.prototype.stressCheck = function() {
   } else {
     $("#neutral-response").show();
   }
-
 };
 
 //user interface logic
@@ -38,6 +37,5 @@ $(document).ready(function(){
   });
   var stressLevel = new Stress(warningSigns, healthSymptoms, copingMethods);
   stressLevel.stressCheck();
-  console.log(stressLevel);
 });
 });
